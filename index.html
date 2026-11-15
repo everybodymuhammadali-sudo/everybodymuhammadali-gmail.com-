@@ -1,43 +1,134 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="الموقع الشخصي لـ KING — مهتم بالتكنولوجيا والألعاب والأمن السيبراني.">
-<title>KING | الموقع الشخصي</title>
-<style>
-:root{--bg:#080611;--panel:#151025;--purple:#a855f7;--pink:#d946ef;--text:#f7f1ff;--muted:#c5b8d8}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 75% 0%,#35105d 0,transparent 38%),var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.8}
-a{color:inherit;text-decoration:none}.wrap{width:min(1080px,92%);margin:auto}
-header{padding:22px 0;border-bottom:1px solid #ffffff18;position:sticky;top:0;background:#080611dd;backdrop-filter:blur(12px);z-index:5}
-nav{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}.logo{font-size:25px;font-weight:900;color:#d8a4ff;letter-spacing:3px}.links{display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:14px}.links a:hover{color:#fff}
-.hero{padding:90px 0 70px;display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}
-.kicker{color:#d8a4ff;font-weight:bold;letter-spacing:2px}.hero h1{font-size:clamp(48px,8vw,86px);line-height:1;margin:18px 0;color:#fff;text-shadow:0 0 30px #a855f788}.hero h1 span{color:var(--purple)}.hero p{color:var(--muted);font-size:19px;max-width:650px}
-.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{padding:11px 22px;border-radius:30px;border:1px solid var(--purple);background:linear-gradient(120deg,#7e22ce,#4c1d95);font-weight:bold;box-shadow:0 0 20px #9333ea44}.btn.secondary{background:transparent}
-.visual{min-height:290px;border:1px solid #a855f766;border-radius:28px;background:linear-gradient(145deg,#24103d,#0c0916 70%);display:grid;place-items:center;box-shadow:0 0 55px #7e22ce22;position:relative;overflow:hidden}.crown{font-size:105px;filter:drop-shadow(0 0 20px #c084fc)}.visual strong{display:block;font-size:35px;letter-spacing:7px;color:#d8a4ff;text-align:center}
-section{padding:35px 0}.section-title{font-size:28px;margin:0 0 20px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(145deg,#1b1430,#100c1c);border:1px solid #a855f744;border-radius:18px;padding:22px}.card h3{margin:0 0 8px;color:#d8a4ff}.card p{margin:0;color:var(--muted)}
-.tags{display:flex;flex-wrap:wrap;gap:10px}.tag{border:1px solid #a855f766;background:#1c1230;padding:8px 15px;border-radius:30px;color:#ead8ff}
-.note{font-size:13px;color:#9e91b2;margin-top:18px}
-footer{text-align:center;padding:30px 0;border-top:1px solid #ffffff18;color:var(--muted);margin-top:35px}
-@media(max-width:720px){.hero{grid-template-columns:1fr;padding:55px 0}.visual{min-height:220px}.grid{grid-template-columns:1fr}.links{gap:10px}.hero p{font-size:17px}}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محمد الكينج | الموقع الشخصي الرسمي</title>
+    <link rel="stylesheet" href="theme.css">
+    <!-- مكتبة أيقونات السوشيال ميديا -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-<header><div class="wrap"><nav><a class="logo" href="#">♛ KING</a><div class="links"><a href="#about">نبذة عني</a><a href="#interests">اهتماماتي</a><a href="#goals">أهدافي</a></div></nav></div></header>
-<main class="wrap">
-<div class="hero">
-<div><div class="kicker">الموقع الشخصي</div><h1>أنا <span>KING</span></h1>
-<p>مهتم بعالم التكنولوجيا والألعاب والأمن السيبراني. أحب اكتشاف الجديد، وتعلّم المهارات التقنية، وتطوير نفسي خطوة بخطوة.</p>
-<div class="actions"><a class="btn" href="#about">اعرف عني</a><a class="btn secondary" href="#interests">اهتماماتي</a></div></div>
-<div class="visual"><div><div class="crown">♛</div><strong>KING</strong></div></div>
-</div>
-<section id="about"><h2 class="section-title">نبذة عني</h2><div class="card"><p>أنا KING. أستمتع بالتعرّف على التكنولوجيا والكمبيوتر والألعاب، وأهتم بمجال الأمن السيبراني والتعلّم عن حماية الأنظمة بشكل قانوني وأخلاقي. هذا الموقع مساحة بسيطة للتعريف باهتماماتي ومشاركتي في عالم التقنية.</p></div></section>
-<section id="interests"><h2 class="section-title">اهتماماتي</h2><div class="tags"><span class="tag">التكنولوجيا</span><span class="tag">الألعاب</span><span class="tag">الكمبيوتر</span><span class="tag">الأمن السيبراني</span><span class="tag">التعلّم التقني</span></div></section>
-<section id="goals"><h2 class="section-title">طموحاتي</h2><div class="grid">
-<div class="card"><h3>تعلّم مستمر</h3><p>اكتساب معرفة ومهارات جديدة في عالم التقنية.</p></div>
-<div class="card"><h3>أمن سيبراني أخلاقي</h3><p>فهم حماية الأنظمة واستخدام المعرفة التقنية بمسؤولية وبإذن.</p></div>
-<div class="card"><h3>تطوير الذات</h3><p>التقدّم خطوة بخطوة وبناء مشاريع مفيدة.</p></div>
-</div><p class="note">ملاحظة: أضف بنفسك روابط حساباتك أو وسيلة تواصل عامة إذا رغبت. لا تضع رقم هاتفك أو عنوانك أو أي بيانات خاصة.</p></section>
-</main>
-<footer>♛ KING — شغف بالتقنية وطموح بلا حدود</footer>
-</body></html>
+    <!-- الهيدر مع صورة الخلفية والصورة الأساسية -->
+    <header class="site-header">
+        <div class="header-overlay"></div>
+        <div class="container header-content">
+            <div class="profile-container">
+                <div class="avatar-wrapper">
+                    <img src="profile.png" alt="محمد الكينج" class="profile-avatar">
+                    <span class="crown-badge">♛</span>
+                </div>
+            </div>
+            
+            <div class="logo">
+                <h1>محمد الكينج</h1>
+                <span class="username">@king_x97</span>
+            </div>
+            <p class="tagline">صانع محتوى، ومهتم بعالم التكنولوجيا والألعاب والأمن السيبراني. أحب اكتشاف الجديد، وتعلّم المهارات التقنية، وتطوير نفسي خطوة بخطوة.</p>
+            
+            <!-- أزرار الوصول السريع للسوشيال ميديا -->
+            <div class="quick-socials">
+                <a href="https://www.tiktok.com/@.king_x97" target="_blank" class="social-icon tiktok" title="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://www.facebook.com/share/1TZhnifosR/" target="_blank" class="social-icon facebook" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/king_x979?psln=OTAzbnE4cTh1MG50" target="_blank" class="social-icon instagram" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://t.me/XMXXMZZ" target="_blank" class="social-icon telegram" title="Telegram">
+                    <i class="fab fa-telegram-plane"></i>
+                </a>
+                <a href="https://github.com/everybodymuhammadali-sudo" target="_blank" class="social-icon github" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- قسم نبذة عني -->
+        <section class="card about-section">
+            <h2><i class="fas fa-crown"></i> نبذة عني</h2>
+            <p>أنا <strong>محمد الكينج</strong>. شغوف بعالم التكنولوجيا والكمبيوتر وتجميعات الألعاب، وأهتم بشكل خاص بمجال الأمن السيبراني والتعلّم المستمر حول حماية الأنظمة والشبكات بأسلوب قانوني وأخلاقي. أشارك اهتماماتي وتجاربي التقنية عبر منصات التواصل الاجتماعي.</p>
+        </section>
+
+        <!-- قسم حسابات السوشيال ميديا الكاملة -->
+        <section class="card social-cards-section">
+            <h2><i class="fas fa-share-alt"></i> حساباتي الرسمية</h2>
+            <p class="section-sub">تواصل معي وتابع أحدث محتواي عبر منصات التواصل:</p>
+            <div class="social-grid">
+                <a href="https://www.tiktok.com/@.king_x97" target="_blank" class="social-card tiktok-card">
+                    <i class="fab fa-tiktok"></i>
+                    <div class="social-info">
+                        <h3>تيك توك (TikTok)</h3>
+                        <span>@.king_x97</span>
+                    </div>
+                </a>
+
+                <a href="https://www.facebook.com/share/1TZhnifosR/" target="_blank" class="social-card facebook-card">
+                    <i class="fab fa-facebook"></i>
+                    <div class="social-info">
+                        <h3>فيسبوك (Facebook)</h3>
+                        <span>الحساب الرسمي</span>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/king_x979?psln=OTAzbnE4cTh1MG50" target="_blank" class="social-card instagram-card">
+                    <i class="fab fa-instagram"></i>
+                    <div class="social-info">
+                        <h3>إنستغرام (Instagram)</h3>
+                        <span>@king_x979</span>
+                    </div>
+                </a>
+
+                <a href="https://t.me/XMXXMZZ" target="_blank" class="social-card telegram-card">
+                    <i class="fab fa-telegram"></i>
+                    <div class="social-info">
+                        <h3>تليجرام (Telegram)</h3>
+                        <span>@XMXXMZZ</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/everybodymuhammadali-sudo" target="_blank" class="social-card github-card">
+                    <i class="fab fa-github"></i>
+                    <div class="social-info">
+                        <h3>جيت هب (GitHub)</h3>
+                        <span>المشاريع البرمجية</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- قسم اهتماماتي ومهاراتي -->
+        <section class="card interests-section">
+            <h2><i class="fas fa-laptop-code"></i> مجالات اهتمامي</h2>
+            <ul class="grid-list">
+                <li><i class="fas fa-shield-alt"></i> الأمن السيبراني</li>
+                <li><i class="fas fa-gamepad"></i> عالم الألعاب (Gaming)</li>
+                <li><i class="fas fa-desktop"></i> هاردوير وتجميعات الكمبيوتر</li>
+                <li><i class="fas fa-microchip"></i> التكنولوجيا الحديثة</li>
+                <li><i class="fas fa-code"></i> البرمجة والتعلّم التقني</li>
+                <li><i class="fas fa-video"></i> صناعة المحتوى الرقمي</li>
+            </ul>
+        </section>
+
+        <!-- قسم طموحاتي -->
+        <section class="card ambitions-section">
+            <h2><i class="fas fa-rocket"></i> رؤيتي وطموحاتي</h2>
+            <ul class="grid-list">
+                <li>تطوير مستمر في المهارات التقنية</li>
+                <li>احتراف الأمن السيبراني الأخلاقي</li>
+                <li>بناء مشاريع تقنية مبتكرة</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>♛ محمد الكينج — شغف بالتقنية وطموح بلا حدود</p>
+        </div>
+    </footer>
+</body>
+</html>
